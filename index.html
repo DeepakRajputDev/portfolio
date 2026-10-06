@@ -1,0 +1,1966 @@
+<!doctype html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Deepak Rajput - Information Technology Undergrad & AI Tech Enthusiast, Google Student Ambassador (Gemini & AI Technologies). Portfolio featuring RailSense AI, SentryRoute AI, and modern web engineering."
+    />
+    <meta
+      name="keywords"
+      content="Deepak Rajput, Portfolio, Google Student Ambassador, Gemini AI, Full Stack, Frontend Developer, BUIT Bhopal, RailSense AI, SentryRoute AI"
+    />
+    <meta name="author" content="Deepak Rajput" />
+    <meta name="color-scheme" content="dark" />
+    <title>Deepak Rajput | IT Undergrad &amp; Google Student Ambassador</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&family=Fira+Code:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <canvas id="bg-canvas" aria-hidden="true"></canvas>
+
+    <header class="navbar" id="navbar">
+      <div class="nav-container">
+        <a
+          href="#hero"
+          class="brand-logo"
+          aria-label="Deepak Rajput Portfolio Home"
+        >
+          <span class="logo-bracket">&lt;</span
+          ><span class="logo-name">Deepak</span><span class="logo-dot">.</span
+          ><span class="logo-accent">AI</span
+          ><span class="logo-bracket">/&gt;</span>
+        </a>
+
+        <nav class="nav-menu" id="nav-menu" aria-label="Main Navigation">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#hero" class="nav-link active">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#experience" class="nav-link">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a href="#projects" class="nav-link">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a href="#certifications" class="nav-link">Certifications</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="nav-actions">
+          <a href="#contact" class="btn btn-outline btn-sm nav-cta"
+            >Get In Touch</a
+          >
+
+          <button
+            class="hamburger-btn"
+            id="hamburger-btn"
+            aria-label="Toggle navigation menu"
+            aria-expanded="false"
+            aria-controls="nav-menu"
+          >
+            <span class="hamburger-bar"></span>
+            <span class="hamburger-bar"></span>
+            <span class="hamburger-bar"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <div
+      class="mobile-nav-overlay"
+      id="mobile-overlay"
+      aria-hidden="true"
+    ></div>
+
+    <main>
+      <section id="hero" class="section hero-section">
+        <div class="container hero-container">
+          <div class="hero-content">
+            <div class="ambassador-badge" id="ambassador-banner">
+              <div class="badge-gemini-glow"></div>
+              <div class="badge-sparkle">
+                <svg
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M12 2L14.5 9.5L22 12L14.5 14.5L12 22L9.5 14.5L2 12L9.5 9.5L12 2Z"
+                    fill="url(#gemini-sparkle-grad)"
+                  />
+                  <defs>
+                    <linearGradient
+                      id="gemini-sparkle-grad"
+                      x1="2"
+                      y1="2"
+                      x2="22"
+                      y2="22"
+                      gradientUnits="userSpaceOnUse"
+                    >
+                      <stop stop-color="#00f5d4" />
+                      <stop offset="0.5" stop-color="#38bdf8" />
+                      <stop offset="1" stop-color="#a855f7" />
+                    </linearGradient>
+                  </defs>
+                </svg>
+              </div>
+              <div class="badge-text-group">
+                <span class="badge-org">Google Student Ambassador</span>
+                <span class="badge-separator">•</span>
+                <span class="badge-sub">Gemini &amp; AI Technologies</span>
+              </div>
+            </div>
+
+            <h1 class="hero-title">
+              Hi, I'm <br />
+              <span class="gradient-gemini">Deepak Rajput</span>
+            </h1>
+
+            <p class="hero-tagline">
+              Information Technology Undergrad &amp; AI Tech Enthusiast
+            </p>
+
+            <div class="hero-typing-wrapper">
+              <span class="typing-prefix">&gt; </span>
+              <span class="typing-text" id="typing-text"></span>
+              <span class="typing-cursor" aria-hidden="true">_</span>
+            </div>
+
+            <p class="hero-description">
+              Passionate IT undergrad at BUIT Bhopal (2023–2027) crafting
+              modern, scalable web solutions, building deep-tech AI applications
+              like RailSense AI &amp; SentryRoute AI, and evangelizing Google
+              Gemini AI innovations.
+            </p>
+
+            <div class="hero-buttons">
+              <a href="#projects" class="btn btn-primary">
+                <span>View Projects</span>
+                <svg
+                  class="btn-icon"
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2.2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </a>
+              <a href="#contact" class="btn btn-secondary">
+                <span>Contact Me</span>
+              </a>
+              <a
+                href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=rajpootdeepak1839@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn btn-ghost"
+                title="Direct Email"
+              >
+                <svg
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+                  <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+                </svg>
+                <span>Email</span>
+              </a>
+            </div>
+
+            <div class="hero-socials">
+              <span class="socials-label">Connect:</span>
+              <div class="social-links">
+                <a
+                  href="https://www.linkedin.com/in/deepak-rajput-43582a281/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="social-icon"
+                  aria-label="LinkedIn Profile"
+                >
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path
+                      d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
+                    ></path>
+                    <rect x="2" y="9" width="4" height="12"></rect>
+                    <circle cx="4" cy="4" r="2"></circle>
+                  </svg>
+                </a>
+                <a
+                  href="https://github.com/DeepakRajputDev"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="social-icon"
+                  aria-label="GitHub Profile"
+                >
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path
+                      d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+                    ></path>
+                  </svg>
+                </a>
+                <a
+                  href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=rajpootdeepak1839@gmail.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="social-icon"
+                  aria-label="Direct Email to Deepak"
+                >
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+                    <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-visual">
+            <div class="cyber-terminal glass-panel">
+              <div class="terminal-header">
+                <div class="terminal-dots">
+                  <span class="dot red"></span>
+                  <span class="dot yellow"></span>
+                  <span class="dot green"></span>
+                </div>
+                <span class="terminal-title">deepak_rajput@portfolio:~$</span>
+                <div class="terminal-badge">AI / IT</div>
+              </div>
+
+              <pre
+                class="terminal-body"
+              ><code><span class="c-comment">// Profile Config: Deepak Rajput</span>
+<span class="c-keyword">const</span> <span class="c-var">engineer</span> = {
+  <span class="c-prop">name</span>: <span class="c-str">"Deepak Rajput"</span>,
+  <span class="c-prop">institution</span>: <span class="c-str">"BUIT Bhopal (Batch 2023-27)"</span>,
+  <span class="c-prop">degree</span>: <span class="c-str">"B.Tech - Information Technology"</span>,
+  <span class="c-prop">leadership</span>: <span class="c-str">"Google Student Ambassador"</span>,
+  <span class="c-prop">techStack</span>: [
+    <span class="c-str">"Python"</span>, <span class="c-str">"JavaScript"</span>, <span class="c-str">"C++"</span>,
+    <span class="c-str">"Gemini AI"</span>, <span class="c-str">"FastAPI"</span>, <span class="c-str">"AWS"</span>
+  ],
+  <span class="c-func">mission</span>: () =&gt; {
+    <span class="c-keyword">return</span> <span class="c-str">"Build resilient AI systems &amp; modern web interfaces"</span>;
+  }
+};</code></pre>
+
+              <div class="terminal-footer">
+                <span class="pulse-indicator-dot"></span>
+                <span class="terminal-status"
+                  >Status: Innovating with Google Gemini &amp; Deep Tech</span
+                >
+              </div>
+            </div>
+
+            <!-- Dynamic Floating Pills -->
+            <div class="floating-cyber-pill pill-top">
+              <div class="pill-sparkle">✨</div>
+              <div class="pill-info">
+                <strong>BUIT Bhopal</strong>
+                <span>B.Tech IT (2023 - 2027)</span>
+              </div>
+            </div>
+
+            <div class="floating-cyber-pill pill-bottom">
+              <div class="pill-sparkle">⚡</div>
+              <div class="pill-info">
+                <strong>SentryRoute AI</strong>
+                <span>10k nodes in 0.70ms</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <a
+          href="#about"
+          class="scroll-down-hint"
+          aria-label="Scroll to About section"
+        >
+          <span class="mouse-scroll">
+            <span class="scroll-wheel"></span>
+          </span>
+          <span class="scroll-hint-text">Scroll Down</span>
+        </a>
+      </section>
+
+      <section id="about" class="section about-section">
+        <div class="container">
+          <div class="section-header reveal-on-scroll">
+            <span class="section-subtitle">Biography</span>
+            <h2 class="section-title">
+              About <span class="gradient-gemini">Me</span>
+            </h2>
+            <div class="section-line"></div>
+          </div>
+
+          <div class="about-grid">
+            <div class="about-visual-column reveal-on-scroll">
+              <div class="cyber-avatar-card glass-panel">
+                <div class="avatar-cyber-ring">
+                  <svg
+                    class="avatar-svg"
+                    viewBox="0 0 320 320"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle
+                      cx="160"
+                      cy="160"
+                      r="145"
+                      stroke="url(#cyber-gemini-gradient)"
+                      stroke-width="2.5"
+                      stroke-dasharray="10 6"
+                    />
+                    <defs>
+                      <linearGradient
+                        id="cyber-gemini-gradient"
+                        x1="0"
+                        y1="0"
+                        x2="320"
+                        y2="320"
+                        gradientUnits="userSpaceOnUse"
+                      >
+                        <stop stop-color="#00f5d4" />
+                        <stop offset="0.5" stop-color="#3b82f6" />
+                        <stop offset="1" stop-color="#8b5cf6" />
+                      </linearGradient>
+                      <radialGradient
+                        id="cyber-bg-glow"
+                        cx="0"
+                        cy="0"
+                        r="1"
+                        gradientUnits="userSpaceOnUse"
+                        gradientTransform="translate(160 160) scale(140)"
+                      >
+                        <stop stop-color="#1e1b4b" stop-opacity="0.8" />
+                        <stop
+                          offset="0.6"
+                          stop-color="#0f172a"
+                          stop-opacity="0.9"
+                        />
+                        <stop
+                          offset="1"
+                          stop-color="#0b0f19"
+                          stop-opacity="1"
+                        />
+                      </radialGradient>
+                    </defs>
+                    <circle
+                      cx="160"
+                      cy="160"
+                      r="135"
+                      fill="url(#cyber-bg-glow)"
+                    />
+                    <circle
+                      cx="160"
+                      cy="120"
+                      r="46"
+                      fill="#131e33"
+                      stroke="#00f5d4"
+                      stroke-width="2.5"
+                    />
+                    <path
+                      d="M90 255C90 205 120 185 160 185C200 185 230 205 230 255"
+                      fill="#131e33"
+                      stroke="#8b5cf6"
+                      stroke-width="2.5"
+                    />
+                    <circle cx="160" cy="120" r="30" fill="#1e293b" />
+                    <rect
+                      x="135"
+                      y="112"
+                      width="22"
+                      height="12"
+                      rx="3"
+                      fill="#00f5d4"
+                      fill-opacity="0.3"
+                      stroke="#00f5d4"
+                      stroke-width="1.5"
+                    />
+                    <rect
+                      x="163"
+                      y="112"
+                      width="22"
+                      height="12"
+                      rx="3"
+                      fill="#00f5d4"
+                      fill-opacity="0.3"
+                      stroke="#00f5d4"
+                      stroke-width="1.5"
+                    />
+                    <line
+                      x1="157"
+                      y1="118"
+                      x2="163"
+                      y2="118"
+                      stroke="#00f5d4"
+                      stroke-width="2"
+                    />
+                    <circle cx="70" cy="80" r="4" fill="#00f5d4" />
+                    <line
+                      x1="70"
+                      y1="80"
+                      x2="115"
+                      y2="105"
+                      stroke="#00f5d4"
+                      stroke-width="1.2"
+                      stroke-dasharray="3 3"
+                    />
+                    <circle cx="250" cy="80" r="4" fill="#8b5cf6" />
+                    <line
+                      x1="250"
+                      y1="80"
+                      x2="205"
+                      y2="105"
+                      stroke="#8b5cf6"
+                      stroke-width="1.2"
+                      stroke-dasharray="3 3"
+                    />
+                    <circle cx="160" cy="275" r="5" fill="#38bdf8" />
+                  </svg>
+                </div>
+
+                <div class="avatar-details">
+                  <span class="avatar-title">Deepak Rajput</span>
+                  <span class="avatar-subtitle">Google Student Ambassador</span>
+                  <span class="avatar-campus"
+                    >Barkatullah Univ. Inst. of Tech (BUIT)</span
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="about-text-column reveal-on-scroll">
+              <h3 class="about-headline">
+                Transforming Complex Problems into
+                <span class="gradient-gemini">High-Impact Solutions</span>
+              </h3>
+
+              <p class="about-desc">
+                I am a results-oriented Information Technology undergraduate at
+                <strong
+                  >Barkatullah University Institute of Technology (BUIT),
+                  Bhopal</strong
+                >
+                (Batch 2023 - 2027). With a deep passion for modern web
+                engineering and artificial intelligence, I bridge theoretical
+                computing concepts with impactful, production-grade
+                applications.
+              </p>
+
+              <p class="about-desc">
+                As a <strong>Google Student Ambassador</strong>, I lead
+                initiatives promoting Gemini and state-of-the-art AI
+                technologies across our campus community, organizing interactive
+                workshops, and empowering future engineers to harness generative
+                AI tools effectively.
+              </p>
+
+              <div class="edu-card glass-panel">
+                <div class="edu-icon">
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                    <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                  </svg>
+                </div>
+                <div class="edu-content">
+                  <span class="edu-tag">Undergraduate Degree</span>
+                  <h4 class="edu-degree">B.Tech in Information Technology</h4>
+                  <p class="edu-school">
+                    Barkatullah University Institute of Technology (BUIT),
+                    Bhopal
+                  </p>
+                  <div class="edu-meta">
+                    <span class="meta-pill">📅 Batch: 2023 - 2027</span>
+                    <span class="meta-pill">📍 Bhopal, Madhya Pradesh</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="stats-counter-grid">
+                <div class="stat-box glass-panel">
+                  <div class="stat-number-wrap">
+                    <span class="stat-num" data-target="2027">0</span>
+                  </div>
+                  <span class="stat-label">Graduation Year</span>
+                </div>
+
+                <div class="stat-box glass-panel">
+                  <div class="stat-number-wrap">
+                    <span class="stat-num" data-target="10000">0</span
+                    ><span class="stat-suffix">+</span>
+                  </div>
+                  <span class="stat-label">Nodes Processed (0.70ms)</span>
+                </div>
+
+                <div class="stat-box glass-panel">
+                  <div class="stat-number-wrap">
+                    <span class="stat-num" data-target="3">0</span
+                    ><span class="stat-suffix">+</span>
+                  </div>
+                  <span class="stat-label">Key Industry Roles</span>
+                </div>
+
+                <div class="stat-box glass-panel">
+                  <div class="stat-number-wrap">
+                    <span class="stat-num" data-target="100">0</span
+                    ><span class="stat-suffix">%</span>
+                  </div>
+                  <span class="stat-label">Passion for AI &amp; Web</span>
+                </div>
+              </div>
+
+              <div class="about-action-row">
+                <a href="#experience" class="btn btn-primary">My Experience</a>
+                <a href="#projects" class="btn btn-outline">Explore Projects</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience" class="section experience-section">
+        <div class="container">
+          <div class="section-header reveal-on-scroll">
+            <span class="section-subtitle">Career Path</span>
+            <h2 class="section-title">
+              Professional <span class="gradient-gemini">Experience</span>
+            </h2>
+            <div class="section-line"></div>
+            <p class="section-desc">
+              Practical industry engagements, community leadership, and software
+              engineering roles.
+            </p>
+          </div>
+
+          <div class="timeline-wrapper">
+            <div class="timeline-line"></div>
+
+            <div class="timeline-item reveal-on-scroll">
+              <div class="timeline-node">
+                <div class="node-inner google-glow"></div>
+              </div>
+              <div class="timeline-card glass-panel">
+                <div class="timeline-header">
+                  <div class="timeline-company-wrap">
+                    <span class="company-badge google-badge">Google</span>
+                    <span class="timeline-duration">May 2026 – Present</span>
+                  </div>
+                  <h3 class="timeline-role">
+                    Google Student Ambassador — Gemini &amp; AI Technologies
+                  </h3>
+                </div>
+                <p class="timeline-desc">
+                  Leading campus-wide AI evangelism for Google's Gemini models
+                  and developer ecosystem. Organizing technical workshops,
+                  hackathons, and hands-on developer training sessions to foster
+                  generative AI literacy and rapid application prototyping among
+                  students.
+                </p>
+                <div class="timeline-tags">
+                  <span class="tag">Google Gemini</span>
+                  <span class="tag">Generative AI</span>
+                  <span class="tag">AI Workshops</span>
+                  <span class="tag">Community Leadership</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="timeline-item reveal-on-scroll">
+              <div class="timeline-node">
+                <div class="node-inner teal-glow"></div>
+              </div>
+              <div class="timeline-card glass-panel">
+                <div class="timeline-header">
+                  <div class="timeline-company-wrap">
+                    <span class="company-badge saiket-badge"
+                      >SaiKet Systems India</span
+                    >
+                    <span class="timeline-duration">Jan 2026 – Mar 2026</span>
+                  </div>
+                  <h3 class="timeline-role">Frontend Developer</h3>
+                </div>
+                <p class="timeline-desc">
+                  Engineered responsive, high-performance UI/UX web interfaces
+                  utilizing modern HTML5, CSS3, and JavaScript frameworks.
+                  Collaborated with cross-functional engineering teams to
+                  implement clean architecture, cross-device responsiveness, and
+                  optimized client workflows.
+                </p>
+                <div class="timeline-tags">
+                  <span class="tag">HTML5 / CSS3</span>
+                  <span class="tag">Modern JavaScript</span>
+                  <span class="tag">UI/UX Engineering</span>
+                  <span class="tag">Responsive Layouts</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="timeline-item reveal-on-scroll">
+              <div class="timeline-node">
+                <div class="node-inner purple-glow"></div>
+              </div>
+              <div class="timeline-card glass-panel">
+                <div class="timeline-header">
+                  <div class="timeline-company-wrap">
+                    <span class="company-badge becil-badge"
+                      >BECIL - MeitY, Govt of India</span
+                    >
+                    <span class="timeline-duration">Apr 2025 – Jun 2025</span>
+                  </div>
+                  <h3 class="timeline-role">Web Page Designing Trainee</h3>
+                </div>
+                <p class="timeline-desc">
+                  Completed hands-on technical training under Broadcast
+                  Engineering Consultants India Limited (Ministry of Electronics
+                  and Information Technology). Focused on public sector web
+                  compliance, semantic HTML structures, accessibility guidelines
+                  (GIGW), and government portal UI design standards.
+                </p>
+                <div class="timeline-tags">
+                  <span class="tag">MeitY Compliance</span>
+                  <span class="tag">Web Standards</span>
+                  <span class="tag">Accessibility (a11y)</span>
+                  <span class="tag">Design Principles</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section skills-section">
+        <div class="container">
+          <div class="section-header reveal-on-scroll">
+            <span class="section-subtitle">Technical Toolkit</span>
+            <h2 class="section-title">
+              Skills &amp; <span class="gradient-gemini">Proficiencies</span>
+            </h2>
+            <div class="section-line"></div>
+            <p class="section-desc">
+              Core competencies across programming languages, cloud
+              architectures, and system concepts.
+            </p>
+          </div>
+
+          <div class="skills-grid">
+            <div class="skill-category-card glass-panel reveal-on-scroll">
+              <div class="category-header">
+                <div class="category-icon teal-icon">
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <polyline points="16 18 22 12 16 6"></polyline>
+                    <polyline points="8 6 2 12 8 18"></polyline>
+                  </svg>
+                </div>
+                <div>
+                  <h3 class="category-title">Frontend &amp; Languages</h3>
+                  <span class="category-sub">Foundations &amp; Logic</span>
+                </div>
+              </div>
+
+              <div class="skill-bars-list">
+                <div class="skill-bar-unit">
+                  <div class="skill-meta">
+                    <span class="skill-name">HTML5 &amp; Semantic Web</span>
+                    <span class="skill-percent">95%</span>
+                  </div>
+                  <div class="skill-track">
+                    <div
+                      class="skill-progress-bar teal-fill"
+                      data-progress="95"
+                    ></div>
+                  </div>
+                </div>
+
+                <div class="skill-bar-unit">
+                  <div class="skill-meta">
+                    <span class="skill-name">CSS3 / Flexbox &amp; Grid</span>
+                    <span class="skill-percent">92%</span>
+                  </div>
+                  <div class="skill-track">
+                    <div
+                      class="skill-progress-bar teal-fill"
+                      data-progress="92"
+                    ></div>
+                  </div>
+                </div>
+
+                <div class="skill-bar-unit">
+                  <div class="skill-meta">
+                    <span class="skill-name">JavaScript (ES6+)</span>
+                    <span class="skill-percent">88%</span>
+                  </div>
+                  <div class="skill-track">
+                    <div
+                      class="skill-progress-bar teal-fill"
+                      data-progress="88"
+                    ></div>
+                  </div>
+                </div>
+
+                <div class="skill-bar-unit">
+                  <div class="skill-meta">
+                    <span class="skill-name">Python</span>
+                    <span class="skill-percent">86%</span>
+                  </div>
+                  <div class="skill-track">
+                    <div
+                      class="skill-progress-bar teal-fill"
+                      data-progress="86"
+                    ></div>
+                  </div>
+                </div>
+
+                <div class="skill-bar-unit">
+                  <div class="skill-meta">
+                    <span class="skill-name">C++</span>
+                    <span class="skill-percent">80%</span>
+                  </div>
+                  <div class="skill-track">
+                    <div
+                      class="skill-progress-bar teal-fill"
+                      data-progress="80"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="skill-category-card glass-panel reveal-on-scroll">
+              <div class="category-header">
+                <div class="category-icon purple-icon">
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path
+                      d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"
+                    ></path>
+                  </svg>
+                </div>
+                <div>
+                  <h3 class="category-title">Cloud &amp; Tools</h3>
+                  <span class="category-sub">Platforms &amp; AI Stack</span>
+                </div>
+              </div>
+
+              <div class="skill-bars-list">
+                <div class="skill-bar-unit">
+                  <div class="skill-meta">
+                    <span class="skill-name"
+                      >AI Prompt Engineering &amp; Gemini</span
+                    >
+                    <span class="skill-percent">94%</span>
+                  </div>
+                  <div class="skill-track">
+                    <div
+                      class="skill-progress-bar purple-fill"
+                      data-progress="94"
+                    ></div>
+                  </div>
+                </div>
+
+                <div class="skill-bar-unit">
+                  <div class="skill-meta">
+                    <span class="skill-name">AWS Cloud Essentials</span>
+                    <span class="skill-percent">82%</span>
+                  </div>
+                  <div class="skill-track">
+                    <div
+                      class="skill-progress-bar purple-fill"
+                      data-progress="82"
+                    ></div>
+                  </div>
+                </div>
+
+                <div class="skill-bar-unit">
+                  <div class="skill-meta">
+                    <span class="skill-name">Git &amp; GitHub Workflows</span>
+                    <span class="skill-percent">90%</span>
+                  </div>
+                  <div class="skill-track">
+                    <div
+                      class="skill-progress-bar purple-fill"
+                      data-progress="90"
+                    ></div>
+                  </div>
+                </div>
+
+                <div class="skill-bar-unit">
+                  <div class="skill-meta">
+                    <span class="skill-name">VS Code &amp; Dev Ecosystem</span>
+                    <span class="skill-percent">95%</span>
+                  </div>
+                  <div class="skill-track">
+                    <div
+                      class="skill-progress-bar purple-fill"
+                      data-progress="95"
+                    ></div>
+                  </div>
+                </div>
+
+                <div class="skill-bar-unit">
+                  <div class="skill-meta">
+                    <span class="skill-name"
+                      >FastAPI &amp; REST Integration</span
+                    >
+                    <span class="skill-percent">84%</span>
+                  </div>
+                  <div class="skill-track">
+                    <div
+                      class="skill-progress-bar purple-fill"
+                      data-progress="84"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 3: Core Concepts -->
+            <div class="skill-category-card glass-panel reveal-on-scroll">
+              <div class="category-header">
+                <div class="category-icon blue-icon">
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
+                    <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
+                  </svg>
+                </div>
+                <div>
+                  <h3 class="category-title">Concepts &amp; Principles</h3>
+                  <span class="category-sub">Architecture &amp; Design</span>
+                </div>
+              </div>
+
+              <div class="skill-bars-list">
+                <div class="skill-bar-unit">
+                  <div class="skill-meta">
+                    <span class="skill-name">Responsive Web Design</span>
+                    <span class="skill-percent">96%</span>
+                  </div>
+                  <div class="skill-track">
+                    <div
+                      class="skill-progress-bar blue-fill"
+                      data-progress="96"
+                    ></div>
+                  </div>
+                </div>
+
+                <div class="skill-bar-unit">
+                  <div class="skill-meta">
+                    <span class="skill-name"
+                      >UI/UX Principles &amp; Accessibility</span
+                    >
+                    <span class="skill-percent">90%</span>
+                  </div>
+                  <div class="skill-track">
+                    <div
+                      class="skill-progress-bar blue-fill"
+                      data-progress="90"
+                    ></div>
+                  </div>
+                </div>
+
+                <div class="skill-bar-unit">
+                  <div class="skill-meta">
+                    <span class="skill-name">Cloud Computing Architecture</span>
+                    <span class="skill-percent">85%</span>
+                  </div>
+                  <div class="skill-track">
+                    <div
+                      class="skill-progress-bar blue-fill"
+                      data-progress="85"
+                    ></div>
+                  </div>
+                </div>
+
+                <div class="skill-bar-unit">
+                  <div class="skill-meta">
+                    <span class="skill-name"
+                      >Data Structures &amp; Algorithms</span
+                    >
+                    <span class="skill-percent">82%</span>
+                  </div>
+                  <div class="skill-track">
+                    <div
+                      class="skill-progress-bar blue-fill"
+                      data-progress="82"
+                    ></div>
+                  </div>
+                </div>
+
+                <div class="skill-bar-unit">
+                  <div class="skill-meta">
+                    <span class="skill-name"
+                      >Blockchain SHA-256 Ledger Basics</span
+                    >
+                    <span class="skill-percent">80%</span>
+                  </div>
+                  <div class="skill-track">
+                    <div
+                      class="skill-progress-bar blue-fill"
+                      data-progress="80"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills-tag-cloud reveal-on-scroll">
+            <span class="cyber-tag">HTML5</span>
+            <span class="cyber-tag">CSS3</span>
+            <span class="cyber-tag">JavaScript</span>
+            <span class="cyber-tag">Python</span>
+            <span class="cyber-tag">C++</span>
+            <span class="cyber-tag">AWS</span>
+            <span class="cyber-tag">Git</span>
+            <span class="cyber-tag">GitHub</span>
+            <span class="cyber-tag">Google Gemini</span>
+            <span class="cyber-tag">Prompt Engineering</span>
+            <span class="cyber-tag">FastAPI</span>
+            <span class="cyber-tag">YOLOv8</span>
+            <span class="cyber-tag">React Native</span>
+            <span class="cyber-tag">Responsive UI</span>
+            <span class="cyber-tag">Cloud Computing</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section projects-section">
+        <div class="container">
+          <div class="section-header reveal-on-scroll">
+            <span class="section-subtitle">Flagship Engineering</span>
+            <h2 class="section-title">
+              Featured <span class="gradient-gemini">Projects</span>
+            </h2>
+            <div class="section-line"></div>
+            <p class="section-desc">
+              Innovative deep-tech applications solving high-concurrency and
+              real-world logistics challenges.
+            </p>
+          </div>
+
+          <div class="projects-grid">
+            <article class="project-flip-card reveal-on-scroll">
+              <div class="flip-card-inner">
+                <div class="flip-card-front glass-panel">
+                  <div class="project-visual-header">
+                    <svg
+                      class="project-vector-svg"
+                      viewBox="0 0 540 280"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect width="540" height="280" fill="#070c17" />
+                      <line
+                        x1="270"
+                        y1="50"
+                        x2="60"
+                        y2="280"
+                        stroke="#00f5d4"
+                        stroke-width="2"
+                        stroke-opacity="0.7"
+                      />
+                      <line
+                        x1="270"
+                        y1="50"
+                        x2="480"
+                        y2="280"
+                        stroke="#00f5d4"
+                        stroke-width="2"
+                        stroke-opacity="0.7"
+                      />
+                      <!-- Track Ties -->
+                      <line
+                        x1="240"
+                        y1="90"
+                        x2="300"
+                        y2="90"
+                        stroke="#1e293b"
+                        stroke-width="2"
+                      />
+                      <line
+                        x1="210"
+                        y1="130"
+                        x2="330"
+                        y2="130"
+                        stroke="#1e293b"
+                        stroke-width="2"
+                      />
+                      <line
+                        x1="170"
+                        y1="180"
+                        x2="370"
+                        y2="180"
+                        stroke="#1e293b"
+                        stroke-width="3"
+                      />
+                      <line
+                        x1="120"
+                        y1="230"
+                        x2="420"
+                        y2="230"
+                        stroke="#1e293b"
+                        stroke-width="4"
+                      />
+                      <rect
+                        x="180"
+                        y="40"
+                        width="180"
+                        height="150"
+                        rx="8"
+                        fill="#0f172a"
+                        stroke="#3b82f6"
+                        stroke-width="2"
+                      />
+                      <rect
+                        x="200"
+                        y="60"
+                        width="140"
+                        height="60"
+                        rx="4"
+                        fill="#13233f"
+                        stroke="#00f5d4"
+                        stroke-width="1.5"
+                      />
+                      <circle
+                        cx="270"
+                        cy="85"
+                        r="14"
+                        fill="#00f5d4"
+                        fill-opacity="0.3"
+                      />
+                      <circle cx="270" cy="85" r="6" fill="#00f5d4" />
+                      <rect
+                        x="215"
+                        y="140"
+                        width="45"
+                        height="40"
+                        rx="2"
+                        stroke="#00f5d4"
+                        stroke-width="2"
+                        stroke-dasharray="3 3"
+                      />
+                      <text
+                        x="218"
+                        y="135"
+                        fill="#00f5d4"
+                        font-size="10"
+                        font-family="monospace"
+                      >
+                        PERSON 98%
+                      </text>
+                      <rect
+                        x="280"
+                        y="140"
+                        width="45"
+                        height="40"
+                        rx="2"
+                        stroke="#ef4444"
+                        stroke-width="2"
+                        stroke-dasharray="3 3"
+                      />
+                      <text
+                        x="283"
+                        y="135"
+                        fill="#ef4444"
+                        font-size="10"
+                        font-family="monospace"
+                      >
+                        ALERT
+                      </text>
+                      <rect
+                        x="10"
+                        y="10"
+                        width="220"
+                        height="24"
+                        rx="4"
+                        fill="#0b1120"
+                        stroke="#00f5d4"
+                        stroke-width="1"
+                      />
+                      <circle cx="22" cy="22" r="4" fill="#00f5d4" />
+                      <text
+                        x="32"
+                        y="26"
+                        fill="#00f5d4"
+                        font-size="11"
+                        font-family="monospace"
+                      >
+                        RAILSENSE YOLOv8 INFERENCE
+                      </text>
+                    </svg>
+                    <div class="project-tag-pill">AI Computer Vision</div>
+                  </div>
+
+                  <div class="project-card-body">
+                    <div class="project-tags">
+                      <span class="tag">YOLOv8</span>
+                      <span class="tag">FastAPI</span>
+                      <span class="tag">React Native</span>
+                      <span class="tag">Python</span>
+                    </div>
+                    <h3 class="project-heading">RailSense AI</h3>
+                    <p class="project-summary">
+                      Full-stack AI-powered Indian Railways coach monitoring
+                      ecosystem. Analyzes live video streams to track passenger
+                      occupancy, detect security threats, and safeguard transit
+                      revenue.
+                    </p>
+
+                    <div class="project-metrics">
+                      <div class="metric-item">
+                        <span class="metric-value">Real-Time</span>
+                        <span class="metric-label">Occupancy Tracking</span>
+                      </div>
+                      <div class="metric-item">
+                        <span class="metric-value">&lt; 35ms</span>
+                        <span class="metric-label">YOLOv8 Latency</span>
+                      </div>
+                    </div>
+
+                    <div class="project-card-footer">
+                      <span class="flip-hint"
+                        >Hover / Tap for Details &amp; Links ➔</span
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <div class="flip-card-back glass-panel">
+                  <div class="back-content">
+                    <h3 class="back-title">RailSense AI — Architecture</h3>
+                    <p class="back-text">
+                      Architected an edge-to-cloud intelligence pipeline using
+                      computer vision models:
+                    </p>
+                    <ul class="back-list">
+                      <li>
+                        <strong>Real-time Occupancy Tracking:</strong> Automates
+                        headcounts inside passenger compartments to prevent
+                        over-crowding.
+                      </li>
+                      <li>
+                        <strong
+                          >Suspicious Event &amp; Criminal Detection:</strong
+                        >
+                        Instant alerts for unauthorized access or suspicious
+                        luggage behavior.
+                      </li>
+                      <li>
+                        <strong>Revenue Protection:</strong> Cross-checks
+                        compartment counts against ticket reservation quotas.
+                      </li>
+                    </ul>
+
+                    <div class="back-actions">
+                      <a
+                        href="https://github.com/DeepakRajputDev/RailSense-AI"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="btn btn-primary btn-sm"
+                      >
+                        <svg
+                          width="18"
+                          height="18"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="2"
+                        >
+                          <path
+                            d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+                          ></path>
+                        </svg>
+                        <span>Explore on GitHub</span>
+                      </a>
+                      <a href="#contact" class="btn btn-outline btn-sm"
+                        >Discuss Project</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-flip-card reveal-on-scroll">
+              <div class="flip-card-inner">
+                <!-- Front Side of Card -->
+                <div class="flip-card-front glass-panel">
+                  <div class="project-visual-header">
+                    <svg
+                      class="project-vector-svg"
+                      viewBox="0 0 540 280"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect width="540" height="280" fill="#070c17" />
+                      <path
+                        d="M0 70H540M0 140H540M0 210H540"
+                        stroke="#111c30"
+                        stroke-width="1"
+                      />
+                      <path
+                        d="M70 0V280M140 0V280M210 0V280M280 0V280M350 0V280M420 0V280M490 0V280"
+                        stroke="#111c30"
+                        stroke-width="1"
+                      />
+                      <circle
+                        cx="100"
+                        cy="140"
+                        r="14"
+                        fill="#13233f"
+                        stroke="#8b5cf6"
+                        stroke-width="2"
+                      />
+                      <circle
+                        cx="210"
+                        cy="70"
+                        r="12"
+                        fill="#13233f"
+                        stroke="#00f5d4"
+                        stroke-width="2"
+                      />
+                      <circle
+                        cx="240"
+                        cy="210"
+                        r="12"
+                        fill="#13233f"
+                        stroke="#00f5d4"
+                        stroke-width="2"
+                      />
+                      <circle
+                        cx="340"
+                        cy="120"
+                        r="18"
+                        fill="#1e1b4b"
+                        stroke="#3b82f6"
+                        stroke-width="2.5"
+                      />
+                      <circle
+                        cx="450"
+                        cy="180"
+                        r="15"
+                        fill="#13233f"
+                        stroke="#00f5d4"
+                        stroke-width="2"
+                      />
+                      <line
+                        x1="100"
+                        y1="140"
+                        x2="210"
+                        y2="70"
+                        stroke="#8b5cf6"
+                        stroke-width="2"
+                      />
+                      <line
+                        x1="100"
+                        y1="140"
+                        x2="240"
+                        y2="210"
+                        stroke="#8b5cf6"
+                        stroke-width="2"
+                      />
+                      <line
+                        x1="210"
+                        y1="70"
+                        x2="340"
+                        y2="120"
+                        stroke="#00f5d4"
+                        stroke-width="3"
+                      />
+                      <line
+                        x1="240"
+                        y1="210"
+                        x2="340"
+                        y2="120"
+                        stroke="#00f5d4"
+                        stroke-width="3"
+                      />
+                      <line
+                        x1="340"
+                        y1="120"
+                        x2="450"
+                        y2="180"
+                        stroke="#3b82f6"
+                        stroke-width="3"
+                      />
+                      <rect
+                        x="260"
+                        y="240"
+                        width="260"
+                        height="26"
+                        rx="4"
+                        fill="#0b1120"
+                        stroke="#8b5cf6"
+                        stroke-width="1"
+                      />
+                      <text
+                        x="270"
+                        y="257"
+                        fill="#c084fc"
+                        font-size="10"
+                        font-family="monospace"
+                      >
+                        SHA256: 8f4b1...e90a (VERIFIED)
+                      </text>
+                      <rect
+                        x="15"
+                        y="15"
+                        width="190"
+                        height="24"
+                        rx="4"
+                        fill="#0b1120"
+                        stroke="#00f5d4"
+                        stroke-width="1"
+                      />
+                      <text
+                        x="25"
+                        y="31"
+                        fill="#00f5d4"
+                        font-size="10"
+                        font-family="monospace"
+                      >
+                        ⚡ 10,000 NODES IN ~0.70ms
+                      </text>
+                    </svg>
+                    <div class="project-tag-pill">
+                      Logistics &amp; Blockchain
+                    </div>
+                  </div>
+
+                  <div class="project-card-body">
+                    <div class="project-tags">
+                      <span class="tag">React</span>
+                      <span class="tag">Node.js</span>
+                      <span class="tag">SHA-256 Blockchain</span>
+                      <span class="tag">Graph Routing</span>
+                    </div>
+                    <h3 class="project-heading">SentryRoute AI</h3>
+                    <p class="project-summary">
+                      Real-time strategic logistics intelligence dashboard with
+                      cryptographic audit trails. High-throughput graph routing
+                      algorithm capable of processing 10,000 nodes in ~0.70ms.
+                    </p>
+
+                    <div class="project-metrics">
+                      <div class="metric-item">
+                        <span class="metric-value">~0.70 ms</span>
+                        <span class="metric-label">10,000 Node Compute</span>
+                      </div>
+                      <div class="metric-item">
+                        <span class="metric-value">SHA-256</span>
+                        <span class="metric-label">Tamper-Proof Audit</span>
+                      </div>
+                    </div>
+
+                    <div class="project-card-footer">
+                      <span class="flip-hint"
+                        >Hover / Tap for Details &amp; Links ➔</span
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <div class="flip-card-back glass-panel">
+                  <div class="back-content">
+                    <h3 class="back-title">SentryRoute AI — Key Highlights</h3>
+                    <p class="back-text">
+                      Engineered to eliminate supply-chain bottlenecks and
+                      guarantee tamper-proof transit validation:
+                    </p>
+                    <ul class="back-list">
+                      <li>
+                        <strong>Ultra-Fast Pathfinding:</strong> Optimized route
+                        planning graph processing 10,000 topology nodes in an
+                        ultra-low latency of ~0.70ms.
+                      </li>
+                      <li>
+                        <strong>Cryptographic Ledger:</strong> Immutable SHA-256
+                        chained audit logs ensuring carrier compliance and
+                        anti-tampering verification.
+                      </li>
+                      <li>
+                        <strong>Interactive Telemetry:</strong> High-frequency
+                        driver status, fuel consumption analysis, and anomaly
+                        notifications.
+                      </li>
+                    </ul>
+
+                    <div class="back-actions">
+                      <a
+                        href="https://github.com/DeepakRajputDev/SentryRoute-AI"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="btn btn-primary btn-sm"
+                      >
+                        <svg
+                          width="18"
+                          height="18"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="2"
+                        >
+                          <path
+                            d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+                          ></path>
+                        </svg>
+                        <span>Explore on GitHub</span>
+                      </a>
+                      <a href="#contact" class="btn btn-outline btn-sm"
+                        >Discuss Project</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="certifications" class="section cert-section">
+        <div class="container">
+          <div class="section-header reveal-on-scroll">
+            <span class="section-subtitle">Credentials</span>
+            <h2 class="section-title">
+              Certifications &amp;
+              <span class="gradient-gemini">Highlights</span>
+            </h2>
+            <div class="section-line"></div>
+            <p class="section-desc">
+              Recognitions, technical accreditations, and high-impact hackathon
+              achievements.
+            </p>
+          </div>
+
+          <div class="cert-grid">
+            <!-- Certification 1: AWS -->
+            <div class="cert-card glass-panel reveal-on-scroll">
+              <div class="cert-icon aws-glow">
+                <svg
+                  width="28"
+                  height="28"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"
+                  ></path>
+                </svg>
+              </div>
+              <div class="cert-content">
+                <span class="cert-badge">Cloud Computing</span>
+                <h3 class="cert-title">AWS Certification</h3>
+                <p class="cert-issuer">Amazon Web Services</p>
+                <p class="cert-desc">
+                  Validation of core cloud architecture principles, scalable
+                  compute infrastructure, Amazon S3 storage, IAM security
+                  policies, and serverless fundamentals.
+                </p>
+                <div class="cert-verified">
+                  <span class="verified-dot"></span>
+                  <span>Verified Cloud Credential</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="cert-card glass-panel reveal-on-scroll">
+              <div class="cert-icon gemini-glow">
+                <svg
+                  width="28"
+                  height="28"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    d="M12 2L15 8L21 9L17 14L18 20L12 17L6 20L7 14L3 9L9 8L12 2Z"
+                  ></path>
+                </svg>
+              </div>
+              <div class="cert-content">
+                <span class="cert-badge">Artificial Intelligence</span>
+                <h3 class="cert-title">Introduction to Generative AI</h3>
+                <p class="cert-issuer">Google Cloud / Gemini Ecosystem</p>
+                <p class="cert-desc">
+                  Comprehensive training on Large Language Models (LLMs), prompt
+                  engineering paradigms, attention mechanisms, ethical AI
+                  governance, and Gemini API integration.
+                </p>
+                <div class="cert-verified">
+                  <span class="verified-dot"></span>
+                  <span>Verified AI Credential</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="cert-card glass-panel reveal-on-scroll">
+              <div class="cert-icon uidai-glow">
+                <svg
+                  width="28"
+                  height="28"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <circle cx="12" cy="8" r="6"></circle>
+                  <path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"></path>
+                </svg>
+              </div>
+              <div class="cert-content">
+                <span class="cert-badge">National Hackathon</span>
+                <h3 class="cert-title">UIDAI Data Hackathon 2026</h3>
+                <p class="cert-issuer">
+                  Unique Identification Authority of India
+                </p>
+                <p class="cert-desc">
+                  Active national participant developing data-driven identity
+                  verification solutions, secure authentication algorithms, and
+                  robust public data workflows.
+                </p>
+                <div class="cert-verified">
+                  <span class="verified-dot"></span>
+                  <span>Recognized Participant 2026</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact-section">
+        <div class="container">
+          <div class="section-header reveal-on-scroll">
+            <span class="section-subtitle">Get In Touch</span>
+            <h2 class="section-title">
+              Let's Connect &amp;
+              <span class="gradient-gemini">Collaborate</span>
+            </h2>
+            <div class="section-line"></div>
+            <p class="section-desc">
+              Open for software engineering opportunities, AI projects, and
+              campus tech collaborations.
+            </p>
+          </div>
+
+          <div class="contact-grid">
+            <!-- Contact Info Cards -->
+            <div class="contact-info-panel glass-panel reveal-on-scroll">
+              <h3 class="info-heading">Direct Contact</h3>
+              <p class="info-sub">
+                Reach out directly via email or social platforms for
+                opportunities or inquiries.
+              </p>
+
+              <div class="contact-methods">
+                <a
+                  href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=rajpootdeepak1839@gmail.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="contact-card-item"
+                >
+                  <div class="contact-icon-box">
+                    <svg
+                      width="22"
+                      height="22"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    >
+                      <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+                      <path
+                        d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div class="contact-card-text">
+                    <span class="card-label">Primary Email</span>
+                    <span class="card-value">rajpootdeepak1839@gmail.com</span>
+                  </div>
+                </a>
+
+                <div class="contact-card-item">
+                  <div class="contact-icon-box">
+                    <svg
+                      width="22"
+                      height="22"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    >
+                      <path
+                        d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"
+                      ></path>
+                      <circle cx="12" cy="10" r="3"></circle>
+                    </svg>
+                  </div>
+                  <div class="contact-card-text">
+                    <span class="card-label">Location</span>
+                    <span class="card-value"
+                      >Bhopal, Madhya Pradesh, India</span
+                    >
+                  </div>
+                </div>
+
+                <div class="contact-card-item">
+                  <div class="contact-icon-box">
+                    <svg
+                      width="22"
+                      height="22"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    >
+                      <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                      <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                    </svg>
+                  </div>
+                  <div class="contact-card-text">
+                    <span class="card-label">Institution</span>
+                    <span class="card-value"
+                      >BUIT Bhopal (Batch 2023 - 2027)</span
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <!-- Active Status Callout -->
+              <div class="status-callout">
+                <div class="status-indicator">
+                  <span class="pulsing-green-dot"></span>
+                  <span class="status-text"
+                    >Available for Software Engineering Internships &amp;
+                    Roles</span
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="contact-form-panel glass-panel reveal-on-scroll">
+              <form id="contact-form" class="contact-form" novalidate>
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="name" class="form-label"
+                      >Your Name <span class="required-mark">*</span></label
+                    >
+                    <div class="input-container">
+                      <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        class="form-input"
+                        placeholder="e.g. Alex Henderson"
+                        required
+                        autocomplete="name"
+                        aria-required="true"
+                      />
+                    </div>
+                    <span class="error-msg" id="name-error"></span>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="email" class="form-label"
+                      >Email Address <span class="required-mark">*</span></label
+                    >
+                    <div class="input-container">
+                      <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        class="form-input"
+                        placeholder="alex@company.com"
+                        required
+                        autocomplete="email"
+                        aria-required="true"
+                      />
+                    </div>
+                    <span class="error-msg" id="email-error"></span>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="subject" class="form-label"
+                    >Subject <span class="required-mark">*</span></label
+                  >
+                  <div class="input-container">
+                    <input
+                      type="text"
+                      id="subject"
+                      name="subject"
+                      class="form-input"
+                      placeholder="Internship Opportunity / Project Collaboration"
+                      required
+                      aria-required="true"
+                    />
+                  </div>
+                  <span class="error-msg" id="subject-error"></span>
+                </div>
+
+                <div class="form-group">
+                  <label for="message" class="form-label"
+                    >Message <span class="required-mark">*</span></label
+                  >
+                  <div class="input-container">
+                    <textarea
+                      id="message"
+                      name="message"
+                      class="form-textarea"
+                      rows="5"
+                      placeholder="Hello Deepak, I came across your portfolio and would like to discuss..."
+                      required
+                      aria-required="true"
+                    ></textarea>
+                  </div>
+                  <span class="error-msg" id="message-error"></span>
+                </div>
+
+                <button
+                  type="submit"
+                  class="btn btn-primary btn-submit"
+                  id="submit-btn"
+                >
+                  <span class="btn-text">Send Message</span>
+                  <span class="btn-spinner" aria-hidden="true"></span>
+                  <svg
+                    class="btn-icon"
+                    width="18"
+                    height="18"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <line x1="22" y1="2" x2="11" y2="13"></line>
+                    <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                  </svg>
+                </button>
+
+                <div
+                  id="form-toast"
+                  class="form-toast"
+                  role="alert"
+                  aria-live="polite"
+                ></div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container footer-container">
+        <div class="footer-left">
+          <a
+            href="#hero"
+            class="brand-logo"
+            aria-label="Deepak Rajput Portfolio Home"
+          >
+            <span class="logo-bracket">&lt;</span
+            ><span class="logo-name">Deepak</span><span class="logo-dot">.</span
+            ><span class="logo-accent">AI</span
+            ><span class="logo-bracket">/&gt;</span>
+          </a>
+          <p class="footer-text">
+            Information Technology Undergrad &amp; Google Student Ambassador.
+            Dedicated to crafting cutting-edge AI and web architectures.
+          </p>
+        </div>
+
+        <div class="footer-middle">
+          <ul class="footer-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-right">
+          <div class="footer-social-icons">
+            <a
+              href="https://www.linkedin.com/in/deepak-rajput-43582a281/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="LinkedIn"
+            >
+              <svg
+                width="18"
+                height="18"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path
+                  d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
+                ></path>
+                <rect x="2" y="9" width="4" height="12"></rect>
+                <circle cx="4" cy="4" r="2"></circle>
+              </svg>
+            </a>
+            <a
+              href="https://github.com/DeepakRajputDev"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="GitHub"
+            >
+              <svg
+                width="18"
+                height="18"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path
+                  d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+                ></path>
+              </svg>
+            </a>
+            <a
+              href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=rajpootdeepak1839@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Email Deepak"
+            >
+              <svg
+                width="18"
+                height="18"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+                <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+              </svg>
+            </a>
+          </div>
+          <p class="copyright-text">
+            &copy; <span id="current-year">2026</span> Deepak Rajput. All rights
+            reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <button
+      id="back-to-top"
+      class="back-to-top-btn"
+      aria-label="Scroll back to top"
+    >
+      <svg
+        width="20"
+        height="20"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2.5"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      >
+        <polyline points="18 15 12 9 6 15"></polyline>
+      </svg>
+    </button>
+
+    <script src="main.js"></script>
+  </body>
+</html>
